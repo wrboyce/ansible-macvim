@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Will Boyce
+  description: Build and Install MacVim.app with Python 3.x support
+  license: Apache2
+  min_ansible_version: 1.2
+  platforms:
+  - name: MacOSX
+    versions:
+    - all
+  galaxy_tags: [macos]
+
+dependencies: []

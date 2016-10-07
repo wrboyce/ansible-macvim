@@ -1,0 +1,6 @@
+---
+- name: install application
+  homebrew: name=macvim options="--with-python3" state=latest
+
+- name: linking application
+  command: brew linkapps macvim creates=/Applications/MacVim.app
